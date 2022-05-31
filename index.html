@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+<!-- https://www.kindsonthegenius.com/javascript/quiz-app-in-javascript-step-by-step-with-all-codes/#t2<!DOCTYPE html> -->
 <html>
     <head>
         <meta charset="utf-8">
@@ -16,7 +17,16 @@
         <div id="questionBox" class="question">
             Sample Question
         </div>
-        <div id="countdown"></div>
+        <div class="countdownPage">
+           <div class="countdownEmpty">
+                <div id="complement"></div>
+           </div>
+           <div class="countdownTime">
+                <p class="countdownText">
+                    TIMER: <span id="timer">10</span>
+                </p>
+           </div>
+        </div>
         <div class="options">
             <ul id="ul">
                 <li id="opt1" onclick="button(this)"></li>

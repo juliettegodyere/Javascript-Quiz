@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color:crimson;
     margin:0;
     padding:0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -75,9 +75,35 @@ body{
     width: 100%;
 }
 
+/* .quiz-wrapper .countdown {
+    float: left;
+    width: 100%;
+    padding: 15px;
+    margin-top: 50px;
+} */
+
 .quiz-wrapper .score .next{
     width: 40%;
     float: left;
+}
+
+.quiz-wrapper .countdownPage{
+    width: 100%;
+    float: left;
+}
+.quiz-wrapper .countdownPage .countdownEmpty{
+    width: 60%;
+    float: left;
+}
+.quiz-wrapper .countdownPage .countdownTime{
+    width: 40%;
+    float: right;
+}
+.quiz-wrapper .countdownPage .countdownTime .countdownCount{
+    font-size: 12px;
+}
+.quiz-wrapper .countdownPage .countdownTime .countdownText{
+    font-size: 12px;
 }
 
 .quiz-wrapper .score .next button{
